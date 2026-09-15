@@ -29,6 +29,13 @@ p4p = ">=4.2.0,<5"
 pip = ">=25.2,<26"
 bluesky-tiled-plugins = ">=2.0.9,<3"
 xrayutilities = ">=1.7.12,<2"
+hklpy2_solvers = "*"
+hklpy2 = "*"
+pygobject = "*"
+hkl = "*"
+
+[pypi-dependencies]
+ad-hoc-diffractometer = "*"
 
 # Linux-only dependencies (EPICS and HDF5 plugins may not be available on macOS)
 [feature.profile.target.linux-64.dependencies]
